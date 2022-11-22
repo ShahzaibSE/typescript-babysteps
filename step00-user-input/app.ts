@@ -1,4 +1,5 @@
 import inquirer  from "inquirer";
+import chalk  from "chalk";
 
 let message = await inquirer.prompt([
     {
@@ -8,4 +9,4 @@ let message = await inquirer.prompt([
     }
 ])
 
-console.log(message.message);
+console.log(chalk.blue(message.message));

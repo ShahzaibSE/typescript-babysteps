@@ -11,6 +11,7 @@
   "author": "shahzaib-noor",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.1.2",
     "inquirer": "^9.1.4"
   },
   "devDependencies": {

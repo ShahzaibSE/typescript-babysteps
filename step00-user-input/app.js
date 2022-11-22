@@ -1,15 +1,5 @@
 import inquirer from "inquirer";
-// let message = inquirer.prompt([
-//     {
-//         type: "input",
-//         name: "message",
-//         message: "Enter your message"
-//     }
-// ]).then(answers => {
-//     console.log(answers.message);
-// }).catch(err => {
-//     console.log("Internal error");
-// });
+import chalk from "chalk";
 let message = await inquirer.prompt([
     {
         type: "input",
@@ -17,4 +7,4 @@ let message = await inquirer.prompt([
         message: "Enter your message"
     }
 ]);
-console.log(message.message);
+console.log(chalk.blue(message.message));
