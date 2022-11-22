@@ -1,0 +1,20 @@
+{
+  "name": "ecmascript-module-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShahzaibSE/typescript-babysteps.git"
+  },
+  "author": "shahzaib-noor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShahzaibSE/typescript-babysteps/issues"
+  },
+  "homepage": "https://github.com/ShahzaibSE/typescript-babysteps#readme"
+}
