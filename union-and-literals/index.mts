@@ -78,3 +78,6 @@ let someString = ""; // Type: string
 // Error: Type 'string' is not assignable to type '"Ada"'.
 specificallyAda = "Ada";
 someString = specificallyAda;
+//
+let nullishValue: string | undefined;
+nullishValue?.length
